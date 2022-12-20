@@ -10,7 +10,7 @@ namespace CapaDatos
 {
     public class ConexionDB
     {
-        static private string CadenaConexion = "Data Source=LAPTOP-PDUDE5FJ;Initial Catalog=Taller;Integrated security=true"; 
+        static private string CadenaConexion = "Data Source=LAPTOP-PDUDE5FJ;Initial Catalog=Taller;Integrated security=true"; //prueba Git
         public SqlConnection Conexion = new SqlConnection(CadenaConexion);
         public SqlConnection AbrirConexion()
         {
